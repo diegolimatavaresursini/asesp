@@ -49,3 +49,8 @@ button {
 button:hover {
     background-color: #555555;
 }
+.logo_white_large.png {
+  width: 250px;
+  height: auto;
+}
+
