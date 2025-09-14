@@ -104,3 +104,12 @@ button.next {
 
 .prev { left: 10px; }
 .next { right: 10px; }
+
+footer {
+background-color: #010101; /* Cor de fundo */
+height: 80px; /* Altura do footer */
+width: 100%; /* Largura total */
+position: relative; /* Posição relativa */
+margin: 0 auto; /* Centraliza horizontalmente */
+z-index: 999; /* Para garantir que fique acima de outros elementos */
+}
