@@ -72,3 +72,35 @@ max-width: 300px;
   font-weight: bold;
 }
 
+.carrossel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
