@@ -51,3 +51,24 @@ button:hover {
 max-width: 300px; 
   height: auto;
 }
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
+  gap: 20px; /* espaço entre os itens */
+  list-style: none; /* remove os marcadores da lista */
+  padding: 0;
+}
+
+.menu-grid li {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.menu-grid a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
